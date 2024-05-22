@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container-xxl{
+    padding: 0% !important;
+}
+.main{
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.box>img{
+     width: 100%;
+     position: relative;
+}
+dotlottie-player {
+    position: absolute;
+    top: 340px ;
+    z-index: 1;    
+    
+}
+.light{
+    width: 200px ;
+    display: flex;
+    margin: auto !important;
+}
+.box1{
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px ;
+    width: 100px ;
+    height: 100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    border-radius: 50px ;
+    width: 100px ;
+    height: 100px ;
+    background-color: rgb(30, 214, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1>button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 800;
+    padding: 20px ;    
+
+}
+.box2>button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 20px ;
+    color: white;
+    font-weight: 800;
+}
+
+
+.box1:active{
+    background-color: rgb(187, 0, 0);
+}
+
+.box2:active{
+    background-color: green;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car-Stop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+<body>
+
+    <div class="main container-xxl">
+        <div class="light row">
+            <div class="box1 col"><button id="btn-stop" onclick="stop()">stop</button></div>
+            <div class="box2 col"><button id="btn-go" onclick="go()">Go</button></div>
+        </div>
+        <div class="box">
+                <dotlottie-player id="car" src="https://lottie.host/43edae22-f95c-4ceb-8814-6a0a220fec2e/2edqM4rkDt.json" background="transparent" speed="1" style="width: 300px; height: 300px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+            <img src="image/pngegg.png" alt="">
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
